@@ -1,12 +1,11 @@
 public class Employee {
-    //
+    //attributes
     private String emp_id;
     private String name;
     private String position;
     private String email;
     private double salary;
-
-    // constructor
+    //constructor
 
     public Employee() {
     }
@@ -18,9 +17,7 @@ public class Employee {
         this.email = email;
         this.salary = salary;
     }
-
-
-    // getter and setter
+    //getter and setter
 
     public String getEmp_id() {
         return emp_id;
@@ -62,8 +59,7 @@ public class Employee {
         this.salary = salary;
     }
 
-
-    // toString
+    //toString
 
     @Override
     public String toString() {
